@@ -10,9 +10,11 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  text-align: center;
+  text-align: right;
   background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+ 
 }
+
 
 .search {
   min-height: 10h;

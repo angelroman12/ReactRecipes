@@ -5,15 +5,16 @@ const Recipe = ({title, dishType, mealType, directions, image, ingredients}) => 
     return (
         <div className={style.rec}>
             <h1>{title}</h1>
-            <ol>
+            <h4>{dishType}</h4>
+            <h5>{mealType}</h5>
+            <ul>
                 {ingredients.map(ingredients =>
                     <li>{ingredients.text}</li>    
                 )}
-            </ol>
-            <a href={directions} target="blanc"> Click here for instructions </a>   
-            <h4>{dishType}</h4>
-            <h4>{mealType}</h4>
+            </ul>
+            <a href={directions} target="blanc"> Click here for instructions </a>
             <img src={image} alt="" />
+            
         </div>
     )
 }
