@@ -43,3 +43,14 @@
   
 }
 
+@media(max-width: 500px) {
+  body {
+    width: 500px;
+  }
+  .search-bar {
+    width: 300px;
+    border: none;
+    padding: 10px;
+    margin-top: 2.1rem;
+  }
+}

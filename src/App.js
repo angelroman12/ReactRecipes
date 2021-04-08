@@ -45,6 +45,7 @@ const App = () =>{
                mealType={recipe.recipe.mealType} 
                image={recipe.recipe.image}
                dishType={recipe.recipe.dishType}
+               directions={recipe.recipe.url}
                ingredients={recipe.recipe.ingredients}/>
             ))}
             </div>
