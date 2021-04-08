@@ -7,8 +7,10 @@
     justify-content: space-around;
     background-color: rgb(223, 160, 160);
     align-items: center;
-    min-width: 40%;
-    color: rgb(0, 0, 0);
+    width: 500px;
+    color: rgb(10, 7, 7);
+    padding: 2rem;
+    text-align: left;
 }
 
 .rec img {
