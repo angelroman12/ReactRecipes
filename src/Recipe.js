@@ -12,7 +12,7 @@ const Recipe = ({title, dishType, mealType, directions, image, ingredients}) => 
                     <li>{ingredients.text}</li>    
                 )}
             </ul>
-            <a href={directions} target="blanc"> Click here for instructions </a>
+            <button>  <a href={directions} target="blanc"> Click here for instructions </a> </button>
             <img src={image} alt="" />
             
         </div>
